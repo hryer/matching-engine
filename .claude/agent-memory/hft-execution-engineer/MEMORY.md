@@ -1,0 +1,6 @@
+- [Adapter layer — clock, IDs, publisher](project_adapter_layer.md) — design decisions and invariants for T-005/006/007 adapters
+- [Engine core — T-010 implementation notes](project_engine_core.md) — partial-fill cap decision (b), match contract, counter accounting, byID invariant
+- [Engine core — T-010 test suite notes](project_engine_tests.md) — QA findings, test design traps, cascade setup patterns, no production bugs found
+- [HTTP transport — T-013/T-014/T-015 notes](project_http_transport.md) — DTO invariants, cancel→404 pin, body-too-large strategy, idempotency+rejection test decisions
+- [App service — T-012 implementation notes](project_app_service.md) — idempotency dedup, lock ordering, ID arithmetic in tests, business rejection path
+- [HTTP handlers — T-014 implementation notes](project_http_handlers.md) — validation pipeline order, RFC3339 choice, Option B client_order_id echo, empty-slice guarantee
